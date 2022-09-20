@@ -19,3 +19,11 @@ puts 1.+(3)
 puts 10.* 5
 puts "Ruby land"
 
+puts 1 < 10 #=> true
+puts 1 > 10 #=> false
+puts 2 <= 2 #=> true
+puts 2 >= 2 #=> true
+
+puts 1 <=> 10 #=> -1 (1 < 10)
+puts 10 <=> 1 #=> 1 (10 > 1)
+puts 1 <=> 1 #=> 0 (1 == 1)
