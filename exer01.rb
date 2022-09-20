@@ -27,3 +27,9 @@ puts 2 >= 2 #=> true
 puts 1 <=> 10 #=> -1 (1 < 10)
 puts 10 <=> 1 #=> 1 (10 > 1)
 puts 1 <=> 1 #=> 0 (1 == 1)
+
+puts 'hello ' + 'world'  #=> "hello world"
+puts 'hello ' + 3 #=> TypeError: can't convert Fixnum into String
+puts 'hello ' + 3.to_s #=> "hello 3"
+puts "hello #{3}" #=> "hello 3"
+
